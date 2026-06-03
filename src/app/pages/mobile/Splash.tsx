@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router";
-import { Wallet } from "lucide-react";
 
 export function Splash() {
   const navigate = useNavigate();
@@ -8,7 +7,11 @@ export function Splash() {
     <div className="min-h-screen bg-gradient-to-br from-primary to-primary/80 flex flex-col items-center justify-center p-8">
       <div className="flex flex-col items-center gap-6 max-w-sm">
         <div className="w-24 h-24 bg-white rounded-[20px] flex items-center justify-center shadow-lg">
-          <Wallet className="w-12 h-12 text-primary" />
+          <img
+              src="/logo/logo_powerpocket.png"
+              alt="PowerPocket Logo"
+              className="w-12 h-12 object-contain"
+            />
         </div>
 
         <div className="text-center space-y-2">
